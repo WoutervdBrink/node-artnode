@@ -1,6 +1,6 @@
 {
   "name": "artnet",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Artnet protocol implementation",
   "bugs": {
     "url": "https://github.com/WoutervdBrink/node-artnode/issues",
