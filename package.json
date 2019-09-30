@@ -1,5 +1,5 @@
 {
-  "name": "artnet",
+  "name": "artnode",
   "version": "0.0.1",
   "description": "Artnet protocol implementation",
   "bugs": {
@@ -9,7 +9,7 @@
   "main": "src/index.js",
   "author": {
     "name": "Wouter van den Brink",
-    "email": " <git@woutervdb.com>",
+    "email": " <git@woutervdb.com>"
   },
   "repository": {
     "type": "git",
