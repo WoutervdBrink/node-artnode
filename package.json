@@ -1,0 +1,23 @@
+{
+  "name": "artnet",
+  "version": "1.0.0",
+  "description": "Artnet protocol implementation",
+  "bugs": {
+    "url": "https://github.com/WoutervdBrink/node-artnode/issues",
+    "email": "git@woutervdb.com"
+  },
+  "main": "src/index.js",
+  "author": {
+    "name": "Wouter van den Brink",
+    "email": " <git@woutervdb.com>",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WoutervdBrink/node-artnode.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jspack": "^0.0.4"
+  }
+}
