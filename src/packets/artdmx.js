@@ -20,7 +20,7 @@ module.exports = class ArtDmx extends Packet {
     }
 
     get universe() {
-        return this.subnet * 256 + this.net;
+        return this.net * 256 + this.subnet;
     }
 
     get data() {
