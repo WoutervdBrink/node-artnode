@@ -22,6 +22,11 @@ const ArtNet = require('../src/artnet');
 
 const artnet = new Artnet({isController: true});
 
+/*
+   use getUniverse(0, false) to receive every data packet
+   regardless of whether they contain changes to previous
+   data or not
+*/
 const universe = artnet.getUniverse(0);
 
 universe.on('data', ({ data, changed }) => {
