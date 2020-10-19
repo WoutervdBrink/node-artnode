@@ -66,9 +66,9 @@ module.exports = class Artnet extends EventEmitter {
         }
     }
 
-    getUniverse(universe) {
+    getUniverse(universe, changeOnly = true) {
         if (!this._universes[universe]) {
-            this._universes[universe] = new Universe(universe);
+            this._universes[universe] = new Universe(universe, changeOnly);
         }
         return this._universes[universe];
     }
